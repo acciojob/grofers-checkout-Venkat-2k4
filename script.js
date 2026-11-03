@@ -8,7 +8,7 @@ const getSum = () => {
 //Add your code here
 	const table = document.querySelector("table")
 	const prices = document.querySelectorAll(".prices");
-	const totaltr  = document.createElment("tr");
+	const totaltr  = document.createElement("tr");
 	const totaltd = document.createElement("td");
 	let totalPrice = 0;
 	prices.forEach((price)=>{
