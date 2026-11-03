@@ -17,10 +17,8 @@ const getSum = () => {
 	totaltd.textContent = totalPrice;
 	totaltr.append(totaltd);
 	table.append(totaltr);
-	
-	
-  
 };
+getSum();
 
 getSumBtn.addEventListener("click", getSum);
 
